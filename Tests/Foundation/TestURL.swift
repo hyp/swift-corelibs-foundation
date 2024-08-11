@@ -7,8 +7,8 @@
 // See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
 //
 
-#if canImport(Android)
-import Android
+#if canImport(Bionic)
+import Bionic
 #endif
 
 let kURLTestParsingTestsKey = "ParsingTests"

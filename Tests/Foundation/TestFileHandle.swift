@@ -19,8 +19,8 @@
 import Dispatch
 #if os(Windows)
 import WinSDK
-#elseif canImport(Android)
-import Android
+#elseif canImport(Bionic)
+import Bionic
 #endif
 
 class TestFileHandle : XCTestCase {

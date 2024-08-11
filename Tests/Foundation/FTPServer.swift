@@ -15,8 +15,8 @@ import Dispatch
     import Glibc
 #elseif canImport(Darwin)
     import Darwin
-#elseif canImport(Android)
-    import Android
+#elseif canImport(Bionic)
+    import Bionic
 #endif
 
 final class ServerSemaphore : Sendable {

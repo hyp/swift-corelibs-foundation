@@ -8,8 +8,8 @@
 //
 
 import Synchronization
-#if canImport(Android)
-import Android
+#if canImport(Bionic)
+import Bionic
 #endif
 
 class TestProcess : XCTestCase {
